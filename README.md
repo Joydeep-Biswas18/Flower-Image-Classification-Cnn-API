@@ -69,4 +69,5 @@ User Upload Image → Backend API → Model Prediction → Display Result -> wit
 ## 👨‍💻 Author
 
 Joydeep Biswas 
+
 Machine Learning & Deep Learning Enthusiast
