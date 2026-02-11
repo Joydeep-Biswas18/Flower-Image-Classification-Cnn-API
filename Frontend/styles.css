@@ -1,0 +1,67 @@
+.hero {
+    background: linear-gradient(120deg, #dde5e6, #93ecfa);
+    padding: 60px;
+    border-radius: 24px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.hero h1 {
+    font-size: 52px;
+    color: #9d174d;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #414a5a;
+}
+
+.result-card {
+    background: #e2fad1;
+    padding: 30px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0px 6px 18px rgba(0,0,0,0.1);
+}
+
+.result-card h2 {
+    color: #3dec4b;
+    font-size: 40px;
+}
+
+.footer {
+    margin-top: 60px;
+    text-align: center;
+    color: #040405;
+}
+
+
+/* -------- MOBILE OPTIMIZATION -------- */
+/* @media (max-width: 768px) {
+
+    .hero {
+        padding: 30px;
+    }
+
+    .hero h1 {
+        font-size: 32px;
+    }
+
+    .hero p {
+        font-size: 14px;
+    }
+
+    .result-card h2 {
+        font-size: 26px;
+    }
+
+    .footer {
+        font-size: 12px;
+    }
+
+    /* Stack cards vertically 
+    div[data-testid="column"] {
+        width: 100% !important;
+        flex: 100% !important;
+    }
+}   */
