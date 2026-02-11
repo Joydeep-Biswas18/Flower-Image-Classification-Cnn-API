@@ -3,6 +3,7 @@ from typing import Literal,Optional
 from pydantic import BaseModel
 from model.model import preprocess_image, class_name ,load_model_once
 import PIL
+import gdown
 import numpy as np
 import pandas as pd
 import io
