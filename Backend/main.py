@@ -12,8 +12,10 @@ from PIL import Image
 
 app = FastAPI()
 
-model = load_model_once()
-
+@app.on_event("startup")
+def startup_event():
+    global model
+    model = load_model_once()
 
 @app.get("/")
 def home_page():
